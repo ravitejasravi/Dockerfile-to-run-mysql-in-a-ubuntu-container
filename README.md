@@ -21,4 +21,10 @@ step 5: Build the dockerfile as image using below command.
           
 step 6: Run the images in a container using below command.
 
-          docker run -d --name conatiner_name image_name
+          docker run -it --name conatiner_name image_name
+  
+step 7: A prompt will appear there type the below command to enable mysql-server.
+ 
+          service mysql start
+
+step 8: Then type " mysql " there mysql prompt will appear. You can start executing mysql commands.
